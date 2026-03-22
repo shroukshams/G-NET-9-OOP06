@@ -36,24 +36,24 @@
 
 
             #region Q4 
-            //            a) What is a partial class? Why would a developer split Calculator into two files?
-            // A partial class allows a single class definition to be split across multiple physical files.Developers use this to:
-            //1.Organize large classes by separating different concerns(e.g., UI logic vs.business logic).
-            //2.Separate generated code from manual code(common in UI frameworks like WinForms or WPF).
-            //3.Allow multiple developers to work on the same class simultaneously without merge conflicts.
-            //b) What is a partial method? What happens if the OnCalculated() implementation in Calculator.Logging.cs is deleted — will the code still compile? Why?
-            //A partial method has its signature defined in one part of a partial class and its implementation optionally provided in another.
-            //If the implementation is deleted, the code will still compile.The C# compiler simply removes the call to the partial method and the signature itself during compilation if no implementation is found.
-            //c) What is an extension method? What are the three rules for writing one?
-            //An extension method allows you to "add" methods to existing types without creating a new derived type or modifying the original type.
-            //Rules:
-            //1.The method must be defined inside a static class.
-            //2.The method itself must be static.
-            //3.The first parameter must use the this keyword followed by the type being extended.
-            //d) What will the following code print?
-            //Plain Text
-            //Log: result = 20
-            //$20.00
+            ////            a) What is a partial class? Why would a developer split Calculator into two files?
+            //// A partial class allows a single class definition to be split across multiple physical files.Developers use this to:
+            ////1.Organize large classes by separating different concerns(e.g., UI logic vs.business logic).
+            ////2.Separate generated code from manual code(common in UI frameworks like WinForms or WPF).
+            ////3.Allow multiple developers to work on the same class simultaneously without merge conflicts.
+            ////b) What is a partial method? What happens if the OnCalculated() implementation in Calculator.Logging.cs is deleted — will the code still compile? Why?
+            ////A partial method has its signature defined in one part of a partial class and its implementation optionally provided in another.
+            ////If the implementation is deleted, the code will still compile.The C# compiler simply removes the call to the partial method and the signature itself during compilation if no implementation is found.
+            ////c) What is an extension method? What are the three rules for writing one?
+            ////An extension method allows you to "add" methods to existing types without creating a new derived type or modifying the original type.
+            ////Rules:
+            ////1.The method must be defined inside a static class.
+            ////2.The method itself must be static.
+            ////3.The first parameter must use the this keyword followed by the type being extended.
+            ////d) What will the following code print?
+            ////Plain Text
+            ////Log: result = 20
+            ////$20.00
             #endregion
             #region
             Cinema cinema = new Cinema();
