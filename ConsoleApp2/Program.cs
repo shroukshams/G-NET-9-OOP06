@@ -29,9 +29,9 @@
 
 
             #region Q3
-            //the answer to a) is no, because Appliance is an abstract class and cannot be instantiated directly. You would need to create an instance of a concrete subclass (like Toaster or WashingMachine) that inherits from Appliance.
-            //the answer to b) is that PowerConsumption() is abstract because it must be implemented by any concrete subclass of Appliance, as the power consumption will vary between different types of appliances. Status() is virtual because it provides a default implementation (returning "Standby") that can be overridden by subclasses if they have a different status. Label() is concrete because it provides a complete implementation that can be used by all subclasses without modification.
-            //the answer to c) is that it will return "Standby" because the Toaster class does not override the Status() method, so it uses the default implementation provided by the Appliance class.
+            ////the answer to a) is no, because Appliance is an abstract class and cannot be instantiated directly. You would need to create an instance of a concrete subclass (like Toaster or WashingMachine) that inherits from Appliance.
+            ////the answer to b) is that PowerConsumption() is abstract because it must be implemented by any concrete subclass of Appliance, as the power consumption will vary between different types of appliances. Status() is virtual because it provides a default implementation (returning "Standby") that can be overridden by subclasses if they have a different status. Label() is concrete because it provides a complete implementation that can be used by all subclasses without modification.
+            ////the answer to c) is that it will return "Standby" because the Toaster class does not override the Status() method, so it uses the default implementation provided by the Appliance class.
             #endregion
 
 
