@@ -17,14 +17,14 @@
             //// In this example, the abstraction is the user interface of the car (steering wheel, pedals, etc.), while encapsulation is the internal workings of the car that are hidden from the user.
 
             #endregion
-            #region Q2What is the difference between an abstract class and an interface? Give at least four differences. When would you choose one over the other?
-            // 1. An abstract class can have both abstract and non-abstract methods, while an interface can only have abstract methods (until C# 8.0, which introduced default implementations in interfaces).
-            // 2. A class can inherit
-            // from only one abstract class, but it can implement multiple interfaces.
-            // 3. An abstract class can have fields and constructors, while an interface cannot have fields and constructors.
-            // 4. An abstract class can provide a default implementation for some methods, while an interface cannot provide any implementation (until C# 8.0).
-            // You would choose an abstract class when you want to provide a common base class with shared
-            // implementation for related classes. You would choose an interface when you want to define a contract that multiple classes can implement, regardless of their position in the class hierarchy.
+            #region Q2
+            //// 1. An abstract class can have both abstract and non-abstract methods, while an interface can only have abstract methods (until C# 8.0, which introduced default implementations in interfaces).
+            //// 2. A class can inherit
+            //// from only one abstract class, but it can implement multiple interfaces.
+            //// 3. An abstract class can have fields and constructors, while an interface cannot have fields and constructors.
+            //// 4. An abstract class can provide a default implementation for some methods, while an interface cannot provide any implementation (until C# 8.0).
+            //// You would choose an abstract class when you want to provide a common base class with shared
+            //// implementation for related classes. You would choose an interface when you want to define a contract that multiple classes can implement, regardless of their position in the class hierarchy.
             #endregion
 
 
