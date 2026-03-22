@@ -55,32 +55,33 @@
             ////Log: result = 20
             ////$20.00
             #endregion
-            #region
-            Cinema cinema = new Cinema();
-                    cinema.Open();
+            #region part2
 
-                    // a. Compiler prevents: Ticket t = new Ticket("Test", "A1", 100);
+            //Cinema cinema = new Cinema();
+            //        cinema.Open();
 
-             StandardTicket t1 = new StandardTicket("Inception", "A5", 80);
-                    VIPTicket t2 = new VIPTicket("Avengers", "L1", 200);
-                    IMAXTicket t3 = new IMAXTicket("Dune", "S1", 130);
+            //        // a. Compiler prevents: Ticket t = new Ticket("Test", "A1", 100);
 
-                    t1.Book(); t2.Book(); t3.Book();
-                    cinema.AddTicket(t1); cinema.AddTicket(t2); cinema.AddTicket(t3);
+            // StandardTicket t1 = new StandardTicket("Inception", "A5", 80);
+            //        VIPTicket t2 = new VIPTicket("Avengers", "L1", 200);
+            //        IMAXTicket t3 = new IMAXTicket("Dune", "S1", 130);
 
-                    cinema.PrintAllTickets();
+            //        t1.Book(); t2.Book(); t3.Book();
+            //        cinema.AddTicket(t1); cinema.AddTicket(t2); cinema.AddTicket(t3);
 
-                    Console.WriteLine("--- Polymorphism: Final Price per Ticket ---");
-                    Ticket[] tickets = cinema.GetAllTickets();
-                    foreach (var t in tickets)
-                        Console.WriteLine($"{t.GetType().Name} => Final Price: {t.CalculateFinalPrice():F2}");
+            //        cinema.PrintAllTickets();
 
-                    Console.WriteLine("--- Extension Method: Receipt ---\n" + t2.GenerateReceipt());
+            //        Console.WriteLine("--- Polymorphism: Final Price per Ticket ---");
+            //        Ticket[] tickets = cinema.GetAllTickets();
+            //        foreach (var t in tickets)
+            //            Console.WriteLine($"{t.GetType().Name} => Final Price: {t.CalculateFinalPrice():F2}");
 
-                    Console.WriteLine("--- Extension Method: Total Revenue ---");
-                    Console.WriteLine($"Total Revenue: {tickets.CalculateTotalRevenue():F2}");
+            //        Console.WriteLine("--- Extension Method: Receipt ---\n" + t2.GenerateReceipt());
 
-                    cinema.Close();
+            //        Console.WriteLine("--- Extension Method: Total Revenue ---");
+            //        Console.WriteLine($"Total Revenue: {tickets.CalculateTotalRevenue():F2}");
+
+            //        cinema.Close();
             #endregion
         }
     }
