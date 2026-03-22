@@ -8,13 +8,13 @@
                 static void Main()
                 {
             #region Q1What is abstraction in OOP? How is it different from encapsulation? Give a real-world example (not from the session) that shows the difference between the two.
-            // Abstraction in OOP is the concept of hiding the complex implementation details and showing only the necessary features of an object.
-            // It allows us to focus on what an object does rather than how it does it.
-            // Encapsulation, on the other hand, is the concept of bundling data and methods that operate on that data within a single unit (class) and restricting access to some of the object's components.
-            // For example, consider a car.
-            // The abstraction of a car would be the interface that allows you to start the engine, accelerate, brake, and steer. You don't need to know how the engine works or how the braking system functions to use the car.
-            // Encapsulation would be the actual implementation of the car's internal components, such as the engine, transmission, and braking system, which are hidden from the user and can only be accessed through the defined interface (abstraction).
-            // In this example, the abstraction is the user interface of the car (steering wheel, pedals, etc.), while encapsulation is the internal workings of the car that are hidden from the user.
+            //// Abstraction in OOP is the concept of hiding the complex implementation details and showing only the necessary features of an object.
+            //// It allows us to focus on what an object does rather than how it does it.
+            //// Encapsulation, on the other hand, is the concept of bundling data and methods that operate on that data within a single unit (class) and restricting access to some of the object's components.
+            //// For example, consider a car.
+            //// The abstraction of a car would be the interface that allows you to start the engine, accelerate, brake, and steer. You don't need to know how the engine works or how the braking system functions to use the car.
+            //// Encapsulation would be the actual implementation of the car's internal components, such as the engine, transmission, and braking system, which are hidden from the user and can only be accessed through the defined interface (abstraction).
+            //// In this example, the abstraction is the user interface of the car (steering wheel, pedals, etc.), while encapsulation is the internal workings of the car that are hidden from the user.
 
             #endregion
             #region Q2What is the difference between an abstract class and an interface? Give at least four differences. When would you choose one over the other?
